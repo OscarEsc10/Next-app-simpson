@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="/Icon100.png" type="image/x-icon" />
         <link href="https://fonts.cdnfonts.com/css/simpsonfont" rel="stylesheet" />
+        <title>The Simpsons App</title>
       </head>
       <body className={inter.className} style={{ fontFamily: '"Simpsonfont", sans-serif' }}>
         <Header />

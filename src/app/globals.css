@@ -1,1 +1,76 @@
 @import "tailwindcss";
+
+/* Custom Simpson-themed animations */
+@keyframes spin-slow {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes donut-bounce {
+    0%,
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(180deg);
+    }
+}
+
+/* Custom utility classes */
+.animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-donut-bounce {
+    animation: donut-bounce 2s ease-in-out infinite;
+}
+
+/* Simpson font family fallback */
+.font-simpson {
+    font-family: "Simpsonfont", "Comic Sans MS", cursive, sans-serif;
+}
+
+/* Custom scrollbar - subtle gray theme */
+/* Custom scrollbar with original gray theme */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    border: 2px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Modal backdrop blur effect enhancement */
+.modal-backdrop {
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(8px) saturate(180%);
+}

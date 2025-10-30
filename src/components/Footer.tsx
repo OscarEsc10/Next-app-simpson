@@ -36,7 +36,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative bg-white border-t-2 border-gray-200 py-8 mt-12">
+    <footer className="relative bg-white py-6">
       {/* Subtle background texture */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col lg:flex-row justify-between items-center">
@@ -88,7 +88,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright and Legal */}
-        <div className="mt-8 pt-6 border-t border-gray-100 text-center">
+        <div className="mt-6 text-center">
           <p className="text-xs text-gray-500">
             This is an unofficial fan site. The Simpsons © {currentYear} 20th Television
           </p>

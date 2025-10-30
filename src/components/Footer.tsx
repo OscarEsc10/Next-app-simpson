@@ -15,7 +15,7 @@ export default function Footer() {
   const socialLinks = [
     {
       icon: <FaGithub className="group-hover:rotate-12 transition-transform" />,
-      href: "https://github.com/OscarEsc10/Next-app-simpson",
+      href: "https://github.com/OscarEsc10",
       label: "GitHub",
     },
     {

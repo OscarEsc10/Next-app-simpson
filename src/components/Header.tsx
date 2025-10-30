@@ -12,7 +12,7 @@ export default function Header() {
              <h3 className="text-xl cursor-pointer">Iconics pharse</h3>
              <h3 className="text-xl cursor-pointer">Quotes</h3>
              <a 
-               href="https://github.com/OscarEsc10" 
+               href="https://github.com/OscarEsc10/Next-app-simpson" 
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center justify-center w-10 h-10 rounded-full bg-black-300 transition-colors 

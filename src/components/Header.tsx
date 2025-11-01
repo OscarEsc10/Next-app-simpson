@@ -22,12 +22,6 @@ export default function Header() {
         <Link href="/locations" className="text-xl cursor-pointer hover:text-yellow-400 transition">
           Locations
         </Link>
-        <Link href="/iconic-phrases" className="text-xl cursor-pointer hover:text-yellow-400 transition">
-          Iconic Phrases
-        </Link>
-        <Link href="/quotes" className="text-xl cursor-pointer hover:text-yellow-400 transition">
-          Quotes
-        </Link>
       </nav>
 
       <a
